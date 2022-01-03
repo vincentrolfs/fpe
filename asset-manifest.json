@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fpe/static/css/main.46991dce.css",
+    "main.js": "/fpe/static/js/main.f471bbc7.js",
+    "index.html": "/fpe/index.html",
+    "main.46991dce.css.map": "/fpe/static/css/main.46991dce.css.map",
+    "main.f471bbc7.js.map": "/fpe/static/js/main.f471bbc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46991dce.css",
+    "static/js/main.f471bbc7.js"
+  ]
+}
