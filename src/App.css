@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+.app {
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30pt;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form {
+    width: min(100%, 600px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form input {
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.apeImage {
+    margin: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainApe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fairPrice {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    margin-left: 12px;
+}
+
+.fairPrice strong {
+    margin-top: 12px;
+    font-size: 20pt;
+}
+
+.divider {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.featureApes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featureApe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
